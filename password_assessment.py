@@ -36,7 +36,7 @@ def assess_password_strength(password):
 
     return strength, feedback
 
-# Example usage
+# Usage
 password = input("Enter your password to assess its strength: ")
 strength, feedback = assess_password_strength(password)
 
